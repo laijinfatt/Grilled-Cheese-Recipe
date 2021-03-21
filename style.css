@@ -1,0 +1,84 @@
+body
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4MKzCoMwBbxWRWl3x_4oip4NgXQUAvekOtw&usqp=CAU);
+}
+
+h1
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(206, 236, 34);
+}
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: beige;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: rgb(199, 142, 19);
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: grey;
+    color: white;
+  }
+  
+  h2
+  {
+      text-align: center;
+  }
+
+  p
+  {
+    text-align: center;
+    font-style: italic;
+    background-color: yellow;
+    font-size: larger;
+  }
+  
+  ul.Igt
+  {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  li#Meat
+  {
+    text-align: left;
+    font-size: x-large;
+    background-color: rgb(216, 71, 66);
+  }
+
+  li#Vege
+  {
+    text-align: left;
+    font-size: x-large;
+    background-color:lightgreen;
+  }
+  
+  li#Dairy
+  {
+    text-align: left;
+    font-size: x-large;
+    background-color: lightyellow;
+  }
+
+  ul#Meat,ul#Vege,ul#Dairy
+  {
+    list-style-type: none;
+    font-size: large;
+    font-style: oblique;
+  }
+  
+
